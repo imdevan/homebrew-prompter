@@ -6,18 +6,18 @@ class Prompter < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/imdevan/prompter/releases/download/v2.0.1/prompter-darwin-arm64"
-      sha256 "0213df04cef09b8d32dfc9be2d960105ae0b0e1c498e9d753322ffb9d5beceec"
+      sha256 "afba36bc98cebe7fd93c6c454a480170df39b0c530c0197e48f0858b48e85991"
     else
       url "https://github.com/imdevan/prompter/releases/download/v2.0.1/prompter-darwin-amd64"
-      sha256 "21998b173024f7fa07b9f49790de01f8a442bd928c4554d376ea98a97aa9881c"
+      sha256 "ee75f743ab85b331b9bba9590b71f0067684285f78b16120f63c9450ed1b2ad0"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/imdevan/prompter/releases/download/v2.0.1/prompter-linux-arm64"
-      sha256 "2a09b673d8cd73549e3be37e32a810586e83b331c14588df5926a390e802a1dc"
+      sha256 "acf89b8dfa642e7270404219a10bc9ca3f1e9ee0d9c789a5bc76c30ac8f8291b"
     else
       url "https://github.com/imdevan/prompter/releases/download/v2.0.1/prompter-linux-amd64"
-      sha256 "df80ea3d782f63c8d971c5e486408cab7a09c46f269ae2ae87eedeaeb42b1837"
+      sha256 "344b549cda5df3a23516e2a755f11cd0bbfaa9204190a507677f497ad81f57d8"
     end
   end
 
